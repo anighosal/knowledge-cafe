@@ -1,0 +1,41 @@
+.header{
+    height: 200px;
+    /* background-image: url('ani.jpg'); */
+    /* background-image: url('../aditi.jpg'); */
+    /* background-image: url('../images/25694.png'); */
+    background-image: url('../images/baba/20220212_165407.jpg');
+    background-size: cover;
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    /* background-position: top right; */
+    color: rgb(196, 138, 14);
+}
+.blog{
+    background-color: burlywood;
+    box-shadow: 10px 10px 10px grey;
+    margin-bottom: 100px;
+}
+
+h3{
+    color: magenta;
+    text-decoration: underline wavy green;
+}
+p{
+    color: blueviolet;
+}
+.page-title{
+    font-weight: 700px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+span{
+    border: 1px solid purple;
+    height: 200px;
+    width: 100px;
+    margin-top: 50px;
+    display: none;
+}

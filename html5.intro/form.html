@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom:5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="table.html">table</a></li>
+                <li><a href="semantic.html">semantic</a></li>
+                <li><a href="audio-video.html">media</a></li>
+            </ul>
+        </nav>
+        <h2>My Salary Sheet</h2>
+    </header>
+    <h2>Wellcome to food adda</h2>
+    <form>
+          <label for="name">Your name
+            <input id="name" type="text" placeholder="Your name">
+          </label>
+          
+          <label for="Email">Your Email
+            <input id="email" type="email" placeholder="Your email">
+          </label>
+          <label for="Phone">Your Mobile
+            <input id="Phone" type="number" placeholder="Your Phone">
+          </label>
+          <fieldset>
+            <legend>Pick one item</legend>
+            <label for="Pizza">
+            <input type="radio" name="food" id="Pizza">
+            Pizza
+            </label>
+            <label for="Burger">
+            <input type="radio" name="food" id="Burger">
+            Burger
+            </label>
+        </label>
+        <label for="Noodles">
+        <input type="radio" name="food" id="Noodles">
+        Noodles
+        </label>
+        <label for="Roll">
+            <input type="radio" name="food" id="Roll">
+            Roll
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Select one or more Burgers</legend>
+            <label for="Chicken burger"></label>
+            <input type="checkbox" name="burger" id="Chicken burger">
+            Chicken burger</label>
+            <label for="Cheese burger"></label>
+            <input type="checkbox" name="burger" id="Cheese burger">
+            Cheese burger</label>
+            <label for="Onion burger"></label>
+            <input type="checkbox" name="burger" id="Onion burger">
+            Onion burger</label>
+          </fieldset>
+          <fieldset>
+            <legend>Special food</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+          </fieldset>
+          <input type="reset" value="Reset">
+          <input type="submit" value="Submit">
+          
+    </form>
+</body>
+</html>
